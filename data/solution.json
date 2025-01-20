@@ -1,0 +1,464 @@
+{
+    "patients": [
+        {
+            "id": "p0",
+            "admission_day": 3,
+            "room": "r2",
+            "operating_theater": "t0",
+            "age_group": "elderly"
+        },
+        {
+            "id": "p1",
+            "admission_day": 2,
+            "room": "r2",
+            "operating_theater": "t0",
+            "age_group": "elderly"
+        },
+        {
+            "id": "p2",
+            "admission_day": 4,
+            "room": "r2",
+            "operating_theater": "t0",
+            "age_group": "adult"
+        },
+        {
+            "id": "p3",
+            "admission_day": 3,
+            "room": "r2",
+            "operating_theater": "t0",
+            "age_group": "elderly"
+        },
+        {
+            "id": "p4",
+            "admission_day": 2,
+            "room": "r2",
+            "operating_theater": "t0",
+            "age_group": "elderly"
+        },
+        {
+            "id": "p5",
+            "admission_day": 3,
+            "room": "r2",
+            "operating_theater": "t0",
+            "age_group": "adult"
+        },
+        {
+            "id": "p6",
+            "admission_day": 3,
+            "room": "r2",
+            "operating_theater": "t0",
+            "age_group": "elderly"
+        }
+    ],
+    "nurses": [
+        {
+            "id": "n0",
+            "skill_level": 0,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 3,
+                    "shift": "late",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 5,
+                    "shift": "night",
+                    "rooms": [
+                        "r0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n1",
+            "skill_level": 0,
+            "assignments": [
+                {
+                    "day": 1,
+                    "shift": "night",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 4,
+                    "shift": "late",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 6,
+                    "shift": "night",
+                    "rooms": [
+                        "r1"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n2",
+            "skill_level": 1,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "shift": "early",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 3,
+                    "shift": "early",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 4,
+                    "shift": "late",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 6,
+                    "shift": "late",
+                    "rooms": [
+                        "r1"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n3",
+            "skill_level": 1,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 1,
+                    "shift": "night",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 3,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 4,
+                    "shift": "night",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 5,
+                    "shift": "night",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 6,
+                    "shift": "night",
+                    "rooms": [
+                        "r1"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n4",
+            "skill_level": 0,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "shift": "early",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 3,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 4,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 5,
+                    "shift": "late",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 6,
+                    "shift": "late",
+                    "rooms": [
+                        "r0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n5",
+            "skill_level": 0,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 1,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "shift": "early",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 6,
+                    "shift": "late",
+                    "rooms": [
+                        "r0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n6",
+            "skill_level": 1,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 1,
+                    "shift": "late",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "shift": "night",
+                    "rooms": [
+                        "r0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n7",
+            "skill_level": 1,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "rooms": [
+                        "r2"
+                    ]
+                },
+                {
+                    "day": 1,
+                    "shift": "night",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "shift": "night",
+                    "rooms": [
+                        "r2"
+                    ]
+                },
+                {
+                    "day": 3,
+                    "shift": "night",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 5,
+                    "shift": "late",
+                    "rooms": [
+                        "r2"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n8",
+            "skill_level": 2,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "late",
+                    "rooms": [
+                        "r2"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "shift": "early",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 4,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 5,
+                    "shift": "early",
+                    "rooms": [
+                        "r2"
+                    ]
+                },
+                {
+                    "day": 6,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n9",
+            "skill_level": 1,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "shift": "late",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 3,
+                    "shift": "late",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 4,
+                    "shift": "late",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 5,
+                    "shift": "late",
+                    "rooms": [
+                        "r0"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "n10",
+            "skill_level": 0,
+            "assignments": [
+                {
+                    "day": 0,
+                    "shift": "night",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 2,
+                    "shift": "night",
+                    "rooms": [
+                        "r1"
+                    ]
+                },
+                {
+                    "day": 4,
+                    "shift": "late",
+                    "rooms": [
+                        "r0"
+                    ]
+                },
+                {
+                    "day": 6,
+                    "shift": "early",
+                    "rooms": [
+                        "r0"
+                    ]
+                }
+            ]
+        }
+    ]
+}
